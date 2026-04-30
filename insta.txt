@@ -1,0 +1,17 @@
+==>Authenication
+ =>register(1.save the data of the user 2. and provide the token the user to access the web)
+ =>login
+ =>token(token black listing )
+ =>otp based registertion
+
+
+==>post
+ =>create 
+ =>can see the feed
+ =>like posts(collcetion types ) 
+ =>save post
+
+==> users 
+    =>follower 
+    =>following
+    
