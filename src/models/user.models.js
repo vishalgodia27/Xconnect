@@ -18,6 +18,10 @@ const userSchema=new mongoose.Schema({
     profileImage:{
         type:String,
         default:"https://ik.imagekit.io/tp2jzeqro/cropped_circle_image.png?updatedAt=1777397323046"
+    },
+    Timestamps:{
+    timestamps: true, // ✅ createdAt & updatedAt
+    versionKey: false,
     }
 })
 const userModel=mongoose.model("users",userSchema)
