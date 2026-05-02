@@ -4,7 +4,7 @@ const jwt=require("jsonwebtoken")
 
 
 async  function registerController(req, res){//this is called as the controller 
-        const { email, username, password, profileImage } = req.body
+        const { email, username, password, profileImage} = req.body
         const isUserExistByEmail = await userModel.findOne({ email })
         // if(isUserExistByEmail)
         // {
@@ -42,7 +42,9 @@ async  function registerController(req, res){//this is called as the controller
                 username,
                 email,
                 profileImage,
-                password: hash
+                password: hash,
+                timestamps
+
         })
         /* 
                1.it must have two condiotion frsitly they have the userdata,
