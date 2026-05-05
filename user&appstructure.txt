@@ -10,7 +10,10 @@ post={
     caption:String,
     img_url:String,
     user:userId,
-    createdAt:Date-time
-    
+    createdAt:Date-time,
+    timestamps
+}
+,{
 
+    user can also see the post count
 }
