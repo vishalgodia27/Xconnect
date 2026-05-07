@@ -11,7 +11,8 @@ post={
     img_url:String,
     user:userId,
     createdAt:Date-time,
-    timestamps
+    timestamps,
+    multer integration with url and image kit 
 }
 ,{
 
